@@ -1,0 +1,6 @@
+trees = ['oak', 'pine', 'ash', 'maple', 'beech']
+shrubs = ['lilac', 'boxwood', 'dogwood', 'cypress', 'rose']
+garden = [trees, shrubs]
+for x in garden:
+    for y in x:
+        print(y)
