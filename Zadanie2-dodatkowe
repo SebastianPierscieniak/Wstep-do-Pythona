@@ -1,0 +1,4 @@
+fabrics = ['wool', 'linen', 'cotton', 'leather']
+clothing = ['jumper', 'shirt', 'trousers', 'jacket']
+for (x, y) in zip(fabrics, clothing):
+    print(x, y)
