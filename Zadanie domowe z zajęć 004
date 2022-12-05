@@ -1,0 +1,13 @@
+def fullname(letters):
+    string = ''
+    return (string.join(letters))
+
+letters = ['S', 'e', 'b', 'a', 's', 't', 'i', 'a', 'n']
+print(fullname(letters))
+
+#można to również wykonać drugim sposobem bez funkcji
+
+name_letters = ['S', 'e', 'b', 'a', 's', 't', 'i', 'a', 'n']
+
+fullname = ''. join(name_letters)
+print(fullname)
