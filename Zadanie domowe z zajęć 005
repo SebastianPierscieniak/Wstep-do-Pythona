@@ -1,0 +1,14 @@
+personal_data = ['Sebastian', 28, 12, 1998, 'Warszawa']
+personal_data2 = [['Maria', 'Franciszek'], 'SP2']
+
+def list_checker(x):
+    for elem in x:
+        if type(elem) is list:
+            return True
+        return False
+
+
+
+if __name__ == '__main__':
+    print(list_checker(personal_data))
+    print(list_checker(personal_data2))
